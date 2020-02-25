@@ -6,7 +6,7 @@ jobs:
 
     steps:      
     - run: apt-get update 
-    - run: sudo apt-get -y install build-essential git portaudio19-dev   
+    - run: apt-get -y install build-essential git portaudio19-dev   
     - checkout
     - run:
           name: "Compiling Gaboom for x86"
