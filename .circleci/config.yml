@@ -11,6 +11,5 @@ jobs:
     - run:
           name: "Compiling Gaboom for x86"
           command: |
-            cd eartuke
             make clean
             make
