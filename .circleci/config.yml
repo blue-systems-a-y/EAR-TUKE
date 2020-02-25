@@ -1,0 +1,16 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: ubuntu:16.04
+
+    steps:      
+    - run: apt-get update 
+    - run: sudo apt-get -y install build-essential git portaudio19-dev   
+    - checkout
+    - run:
+          name: "Compiling Gaboom for x86"
+          command: |
+            cd eartuke
+            make clean
+            make
