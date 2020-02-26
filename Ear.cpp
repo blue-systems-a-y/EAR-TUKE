@@ -203,15 +203,15 @@ int main(int argc, char* argv[])
         app.run(configFile);        
     }
     catch (const Exception& ex) {              
-        std::cerr << "error: " << ex.message() << std::endl;
+        std::cout << "error: " << ex.message() << std::endl;
         return -1;
     }
     catch (std::exception& ex) {
-        std::cerr << "error: " << ex.what() << std::endl;
+        std::cout << "error: " << ex.what() << std::endl;
         return -1;
     }
     catch (...) {
-        std::cerr << "error running !" << std::endl;
+        std::cout << "error running !" << std::endl;
         return -1;
     }
     return 0;
