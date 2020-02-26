@@ -1,14 +1,3 @@
-Gaboom - the demo!
-Not conncted to server
-
-Last Alarm
-
-
-      At 12:1:6.273: SHOT reported by " onion" and " garlic" (within
-      348.492 ms)
-
-Last Event: At 16:20:0.82: *'shot'* from *garlic*
-Show: //
 
   *
     Event
@@ -927,31 +916,3 @@ Show: //
     shot
     -8474.12
     645.195
-
-Server Configuration
-//
-
-Control the server when firing alarms, as follows:
-
-Will only consider event where volumw is from /-100000/ to /100000/ AND
-score is between /-100000/ to /100000/ AND the event class is one of /shot/
-
-For an alarm to be fired, event of the same /class/ must be fired from
-two different /nodes/ within /1000/ second(s)
-
-Volume From:
-
-To:
-
-Score From:
-
-To:
-
-Time :
-
-Classes:
-
-Submit
-
-Footer crap
-
